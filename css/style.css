@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+/* Celadon */
+/* Raisin Black */
+/* Saffron */
+/* Demin */
+* {
+  box-sizing: border-box; }
+
+html, body {
+  color: #271f30;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  margin: 0 auto;
+  width: 80%; }
+
+a {
+  color: #3257de;
+  text-decoration: none; }
+
+header {
+  margin-bottom: 75px; }
+
+nav {
+  overflow: hidden;
+  padding-bottom: 15px; }
+
+.user--logo {
+  float: left;
+  margin-top: 10px; }
+  .user--logo img {
+    height: auto;
+    width: 120px; }
+
+.user--menu {
+  float: left;
+  margin-top: 18px; }
+  .user--menu--list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .user--menu--list li {
+      display: inline-block;
+      margin-left: 50px; }
+      .user--menu--list li a {
+        color: #3257de; }
+
+.user--menu--action {
+  float: right;
+  margin-top: 20px; }
+  .user--menu--action .action--list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .user--menu--action .action--list li {
+      color: #3257de;
+      display: inline-block;
+      margin-left: 10px; }
+
+.btn {
+  border-radius: 4px; }
+
+.btn-action {
+  background-color: #3257de;
+  border: 1px solid #3257de;
+  color: white;
+  padding: 6px; }
+
+.btn-cta {
+  background-color: #3257de;
+  border: 1px solid #3257de;
+  color: white;
+  padding: 12px 30px; }

@@ -1,0 +1,58 @@
+header {
+    margin-bottom: 75px;
+}
+nav {
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+.user--logo {
+    float: left;
+    margin-top: 10px;
+
+    & img {
+        height: auto;
+        width: 120px;
+    }
+}
+
+.user--menu {
+    float: left;
+    margin-top: 18px;
+
+    &--list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        & li {
+            display: inline-block;
+            margin-left: 50px;
+
+            & a {
+                color: $blue;
+            }
+        }
+    }
+
+}
+
+.user--menu--action {
+    float: right;
+    margin-top: 20px;
+    
+
+    .action--list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+
+        & li {
+            color: $blue;
+            display: inline-block;
+            margin-left: 10px;
+    }
+}
+
+}
