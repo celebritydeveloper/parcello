@@ -22,12 +22,18 @@ a {
   color: #3257de;
   text-decoration: none; }
 
+.clear-fix {
+  clear: both; }
+
 header {
   margin-bottom: 75px; }
 
 nav {
   overflow: hidden;
   padding-bottom: 15px; }
+
+.box--title {
+  text-align: center; }
 
 .user--logo {
   float: left;
@@ -118,6 +124,47 @@ nav {
       .benefit__box--card img {
         height: auto;
         width: 100px; }
+
+.how {
+  padding-top: 50px; }
+  .how--card {
+    float: left;
+    margin-right: 15px;
+    width: 23%; }
+    .how--card img {
+      height: auto;
+      width: 120px; }
+
+.sellout--one {
+  margin-bottom: 120px;
+  overflow: hidden; }
+
+.sellout--one--img {
+  float: left;
+  width: 40%; }
+
+.sellout--one--img img {
+  height: auto;
+  width: 100%; }
+
+.sellout--one--text {
+  float: right;
+  margin-top: 50px;
+  width: 60%; }
+
+.sellout--two {
+  overflow: hidden; }
+
+.sellout--two--img {
+  float: right;
+  width: 40%; }
+  .sellout--two--img img {
+    height: auto;
+    width: 100%; }
+
+.sellout--two--text {
+  float: left;
+  width: 60%; }
 
 .btn {
   border-radius: 4px; }
