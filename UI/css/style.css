@@ -136,7 +136,7 @@ nav {
       width: 120px; }
 
 .sellout--one {
-  margin-bottom: 120px;
+  margin-top: 150px;
   overflow: hidden; }
 
 .sellout--one--img {
@@ -153,6 +153,7 @@ nav {
   width: 60%; }
 
 .sellout--two {
+  margin-top: 150px;
   overflow: hidden; }
 
 .sellout--two--img {
@@ -165,6 +166,47 @@ nav {
 .sellout--two--text {
   float: left;
   width: 60%; }
+
+.achievement {
+  background-color: #3257de;
+  height: 200px;
+  margin-top: 90px;
+  padding-top: 40px;
+  text-align: center; }
+  .achievement--text {
+    color: white; }
+
+.testimony {
+  margin-top: 40px; }
+  .testimony--card {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px 2px #d1d1d1;
+    float: left;
+    margin-right: 20px;
+    padding: 6px 20px;
+    width: 30%; }
+    .testimony--card--user {
+      border-top: 1px solid #d1d1d1;
+      padding-bottom: 20px;
+      padding-top: 15px; }
+      .testimony--card--user img {
+        border-radius: 50%;
+        float: left;
+        height: 50px;
+        margin-right: 15px;
+        width: 50px; }
+      .testimony--card--user h4 {
+        margin: 0; }
+      .testimony--card--user p {
+        font-size: 14px;
+        margin: 0; }
+        .testimony--card--user p span {
+          color: #3257de;
+          font-weight: 600; }
+  .testimony--share {
+    margin-top: 120px;
+    text-align: center; }
 
 .btn {
   border-radius: 4px; }
