@@ -1,0 +1,35 @@
+{
+  "name": "parcelo",
+  "version": "1.0.0",
+  "description": "Parcelo is a courier service that helps users deliver parcels to different destinations.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node-sass sass/main.scss css/style.css -w",
+    "compress": "node-sass sass/main.scss css/style.css --output-style compressed",
+    "build": "npm-run-all compile prefix compress",
+    "compile": "node-sass sass/main.scss css/style.css",
+    "prefix": "postcss css/style.css --use autoprefixer -o css/style.css"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theboringdude/parcello.git"
+  },
+  "keywords": [
+    "parcel",
+    "delivery",
+    "courier"
+  ],
+  "author": "Saviour Essien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theboringdude/parcello/issues"
+  },
+  "homepage": "https://github.com/theboringdude/parcello#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.6.0",
+    "node-sass": "^4.12.0",
+    "postcss-cli": "^6.1.2"
+  }
+}
