@@ -111,3 +111,30 @@ nav {
         }
     }
 }
+
+.benefit {
+    background-color: $blue;
+    height: 450px;
+
+    &__box {
+        background-color: $white;
+        border-radius: 6px;
+        box-shadow: 0 -2px 8px 2px rgb(228, 228, 228);
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        bottom: 60px;
+        width: 65%;
+
+        &--card {
+            float: left;
+            width: 30%;
+
+            & img {
+                height: auto;
+                width: 100px;
+            }
+        }
+    }
+}
