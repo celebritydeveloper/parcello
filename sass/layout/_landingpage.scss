@@ -56,3 +56,58 @@ nav {
 }
 
 }
+
+.product__slider {
+    background: url('../../img/sb3_img.png') no-repeat;
+    background-position-x: 600px;
+    background-position-y: -20px;
+    margin-top: 80px;
+
+    &--title {
+        color: $blue;
+    }
+
+    &--desc {
+        color: $black;
+    }
+
+    &--partners {
+        display: inline-block;
+    }
+
+    &--partners img {
+        float: left;
+        height: auto;
+        margin-right: 25px;
+        width: 30px;
+    }
+
+    &--cta {
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+
+    &--testimony {
+        background-color: $white;
+        border-radius: 6px;
+        box-shadow: 2px 2px 10px 2px rgb(209, 209, 209);
+        display: inline-block;
+        margin-top: 50px;
+        padding: 5px 20px;
+        width: 350px;
+
+        & img {
+            border-radius: 50%;
+            float: left;
+            height: 40px;
+            margin-right: 20px;
+            margin-top: 10px;
+            width: 40px;
+        }
+
+        & p {
+            font-size: 14px;
+            margin-left: 50px;
+        }
+    }
+}
