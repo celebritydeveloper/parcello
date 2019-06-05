@@ -1,5 +1,6 @@
 .btn {
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .btn-action {
@@ -20,6 +21,15 @@
     background-color: $blue;
     border: 1px solid $blue;
     color: $white;
+    font-size: 18px;
+    padding: 12px 20px;
+}
+
+.btn-reset {
+    background-color: rgb(226, 226, 226);
+    border: 1px solid rgb(226, 226, 226);
+    color: $black;
+    font-size: 18px;
     padding: 12px 20px;
 }
 
