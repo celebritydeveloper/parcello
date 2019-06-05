@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(243, 237, 237);
+}
+
+
+.login {
+    margin: 0 auto;
+    width: 50%;
+
+    &__container {
+        background-color: $white;
+        box-shadow: 2px 2px 10px 2px rgb(235, 231, 231);
+        border: 1px solid rgb(243, 237, 237);
+        border-radius: 6px;
+        height: 450px;
+        margin-top: 80px;
+        overflow: hidden
+    }
+
+    &--desc {
+        background-color: $blue;
+        color: $white;
+        float: left;
+        height: 100%;
+        padding: 50px 20px 15px 20px;
+        text-align: center;
+        width: 40%
+    }
+
+    .form--field {
+        margin-top: 20px;        
+
+        input[type="email"], input[type="password"] {
+            background-color: rgb(248, 245, 245);
+            border: 1px solid rgb(243, 237, 237);
+            border-radius: 4px;
+            color: $black;
+            display: inline-block;
+            font-size: 16px;
+            margin-left: 30px;
+            padding: 10px;
+            outline: $blue;
+            width: 80%;
+            
+        }
+
+        
+    }
+
+    &--form {
+        float: right;
+        height: 100%;
+        padding: 70px 0 20px 20px;
+        margin-top: 20px;
+        width: 60%;
+
+        .signin {
+            text-align: center; 
+        }
+    }
+
+
+}

@@ -320,3 +320,47 @@ body {
     height: 100%;
     padding: 20px 0 20px 40px;
     width: 60%; }
+
+body {
+  background-color: #f3eded; }
+
+.login {
+  margin: 0 auto;
+  width: 50%; }
+  .login__container {
+    background-color: white;
+    box-shadow: 2px 2px 10px 2px #ebe7e7;
+    border: 1px solid #f3eded;
+    border-radius: 6px;
+    height: 450px;
+    margin-top: 80px;
+    overflow: hidden; }
+  .login--desc {
+    background-color: #3257de;
+    color: white;
+    float: left;
+    height: 100%;
+    padding: 50px 20px 15px 20px;
+    text-align: center;
+    width: 40%; }
+  .login .form--field {
+    margin-top: 20px; }
+    .login .form--field input[type="email"], .login .form--field input[type="password"] {
+      background-color: #f8f5f5;
+      border: 1px solid #f3eded;
+      border-radius: 4px;
+      color: #271f30;
+      display: inline-block;
+      font-size: 16px;
+      margin-left: 30px;
+      padding: 10px;
+      outline: #3257de;
+      width: 80%; }
+  .login--form {
+    float: right;
+    height: 100%;
+    padding: 70px 0 20px 20px;
+    margin-top: 20px;
+    width: 60%; }
+    .login--form .signin {
+      text-align: center; }
