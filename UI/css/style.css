@@ -207,6 +207,42 @@ nav {
   .testimony--share {
     margin-top: 120px;
     text-align: center; }
+    .testimony--share a {
+      font-weight: 600; }
+
+.cta {
+  background-color: white;
+  box-shadow: 0 -3px 10px 2px #e4e4e4;
+  height: 250px;
+  margin-top: 70px;
+  padding-top: 40px; }
+  .cta__desc {
+    text-align: center; }
+    .cta__desc p {
+      margin-bottom: 40px; }
+
+.footer {
+  overflow: hidden;
+  padding: 5px 0; }
+  .footer--logo {
+    float: left;
+    margin-right: 300px;
+    margin-top: 10px; }
+    .footer--logo img {
+      height: auto;
+      width: 120px; }
+  .footer__copyright {
+    float: left; }
+  .footer--user--socials {
+    float: right;
+    margin-top: 13px; }
+    .footer--user--socials ul {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      .footer--user--socials ul li {
+        display: inline-block;
+        margin-left: 20px; }
 
 .btn {
   border-radius: 4px; }
